@@ -13,7 +13,6 @@ export default function App() {
 
     }}
     >
-      hello
       <div className="container">
         <Navbar/>
       </div>
