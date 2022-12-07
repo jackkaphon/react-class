@@ -5,16 +5,15 @@ import './style.css'
 export default function App() {
   return (
     <div
-    style={{
-      backgroundColor: "#00308F",
-      height: 0,
-      paddingBottom: '100%',
-      overflow: 'hidden',
-
-    }}
+      style={{
+        backgroundColor: "#00308F",
+        height: 0,
+        paddingBottom: '100%',
+        overflow: 'hidden',
+      }}
     >
       <div className="container">
-        <Navbar/>
+        <Navbar />
       </div>
       <div className="container2">
         <Content/>
